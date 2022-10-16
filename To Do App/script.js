@@ -3,7 +3,7 @@ const onSubmit = (event) => {
 
     event.preventDefault();
 
-    const {name} = event.target;
+    const { name } = event.target;
 
     list.innerHTML +=
         `<li> 
@@ -12,7 +12,7 @@ const onSubmit = (event) => {
         </li>`;
 }
 
-addEventListener("submit",onSubmit);
+addEventListener("submit", onSubmit);
 
 function removeItem(event) {
     event.preventDefault();
