@@ -1,0 +1,21 @@
+body {
+    color: aliceblue;
+    background-color: #DBE6FD
+}
+
+.p-5 {
+    background-color: #293B5F
+}
+
+.card {
+    background-color: #1A374D;
+    color: #405d27;
+    border-radius: 5px;
+  
+}
+
+.card2 {
+      background-color: #406882;
+     border-radius: 5px;
+}
+

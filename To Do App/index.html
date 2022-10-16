@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List | Challenge</title>
+</head>
+
+<body>
+    <header class="p-5 text-center">
+        <div class="container">
+            <h1 class="display-5 "> Simple To Do List Application</h1>
+        </div>
+    </header>
+
+    <div class="container mt-3 text-center px-5">
+        <!-- <div class="text-start"> -->
+        <div class="card text-light p-3">
+
+            <form id="formInput" class="px-5">
+                <h2>Add Your To Do List</h2>
+
+                <input type="text" name="name" id="name" class="form-control fs-3">
+
+                <button type="submit" class="btn btn-outline-light btn-lg mt-2 ">Submit</button>
+                <button type="reset" class="btn btn-warning btn-lg mt-2">Reset</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="container mt-3 px-5">
+        <div class="card2 text-light p-2 m-5">
+            <h2 class="text-center"> Your To Do List </h2>
+
+            <form id="formInput">
+                <li class="list-group p-2 mx-4 fs-4" id="list"></li>
+            </form>
+            <!-- <ol id="list">
+            </ol> -->
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
